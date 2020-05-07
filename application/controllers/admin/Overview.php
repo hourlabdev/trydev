@@ -11,4 +11,9 @@ class Overview extends CI_Controller {
         // load view admin/overview.php
         $this->load->view("admin/overview");
 	}
+
+	public function	about()
+	{
+		echo "<h2>INI HALAMAN ABOUT</h2>";
+	}
 }

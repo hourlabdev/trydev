@@ -24,7 +24,7 @@
 					<label class="logo">HELLO CBT</label>
 				<ul>
 					<li><a class="active" href="#">Home</a></li>
-					<li><a href="#">About</a></li>
+					<li><a href="<?php echo base_url()."admin/overview/about" ?>">About</a></li>
 					<li><a href="#">Service</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a href="#join_fb">Feedback</a></li>
